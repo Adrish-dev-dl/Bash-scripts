@@ -13,3 +13,4 @@ grep 'MemTotal' /proc/meminfo | awk 'NR==1{printf "%s%s,", $2,$3}'>>$filename
 grep 'MemFree' /proc/meminfo | awk 'NR==1{printf "%s%s,", $2,$3}'>>$filename
 grep 'MemAvailable' /proc/meminfo | awk 'NR==1{printf "%s%s\n", $2,$3}'>>$filename
 exit
+adrish
