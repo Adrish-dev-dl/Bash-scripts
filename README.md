@@ -31,5 +31,5 @@ grep 'MemFree' /proc/meminfo | awk 'NR==1{printf "%s%s,", $2,$3}'>> -> Memory no
 grep 'MemAvailable' /proc/meminfo ->  MemAvailable is An estimate of how much memory is available for starting new applications, without swapping.
 
 
-All the commands can be run individually to test the subsequent output. While running please exclude '>>$filename'. To run the script enter                      './Memory_cpu_usage.sh' .                 
+All the commands can be run individually to test the subsequent output. While running indivually please exclude '>>$filename'. To run the script enter                      './Memory_cpu_usage.sh' .                 
 
